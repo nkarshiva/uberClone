@@ -5,7 +5,7 @@ import mapboxgl from 'mapbox-gl'
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpdmFua2FyNzciLCJhIjoiY2wyemw3c3BoMDJxcjNicm9kbXZ4NXp4diJ9.DBrcIvAzpWhFPOsbo93FZw';
 
 const Map = (props) => {
-
+    console.log("props",props)
     useEffect(() => {
         const map = new mapboxgl.Map({
             container: "map",
